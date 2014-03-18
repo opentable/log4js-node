@@ -1,7 +1,7 @@
 {
   "name": "log4js",
   "version": "0.6.12",
-  "description": "Port of Log4js to work with node.",
+  "description": "Fork of Port of Log4js to work with node. This forks adds a redis-logstash appender",
   "keywords": [
     "logging",
     "log",
@@ -30,7 +30,8 @@
   "dependencies": {
     "async": "0.1.15",
     "semver": "~1.1.4",
-    "readable-stream": "~1.0.2"
+    "readable-stream": "~1.0.2",
+    "redis": "~0.10.1"
   },
   "devDependencies": {
     "vows": "0.7.0",
